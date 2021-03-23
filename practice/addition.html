@@ -1,0 +1,18 @@
+<html>
+    <script>
+        function add(){
+            var a,b,c;
+            a=Number(document.getElementById("aa").value);
+            b=Number(document.getElementById("bb").value);
+            c=a+b;
+            document.getElementById("answer").value=c;
+        }
+    </script>
+    <body>
+        enter the value of "a": <input id="aa"><br>
+        enter the value of "b": <input id="bb"><br>
+        <button onclick="add()">Add</button>
+        <input id="answer">
+        
+    </body>
+</html>
