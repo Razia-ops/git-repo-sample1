@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script>
+            function revers(){
+                var a, no, b, temp=0;
+                no=Number(document.getElementById("noip").value);
+                b=no;
+                while(no>0){
+                    a=no%10;
+                    no=parseInt(no/10);
+                    temp=temp*10+a;
+                }
+                alert(temp);
+            }
+        </script>
+        <body>
+            Enter anu Number<input id="noip">
+            <button onclick="revers()">Reverse</button>
+        </body>
+    </head>
+</html>
