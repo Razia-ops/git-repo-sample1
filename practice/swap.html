@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script>
+            function swap(){
+                var a,b,c;
+                a=Number(document.getElementById("aa").value);
+                b=Number(document.getElementById("bb").value);
+                c=a; 
+                a=b;
+                b=c;
+                document.getElementById("aaa").value=a;
+                document.getElementById("bbb").value=b;
+            }
+        </script>
+        <body>
+            value of a: <input id="aa">
+            value of b:<input id="bb"><br><br>
+            <button onclick="swap()">Swap</button>
+            value if a after swap<input id="aaa">
+            value of b after swap<input id="bbb">
+        </body>
+    </head>
+</html>
